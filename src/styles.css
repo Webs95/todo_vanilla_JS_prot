@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  color: rgb(250, 250, 250);
+  font-family: "Poiret One", cursive;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 40vw;
+  min-height: 3.2vh;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  padding-left: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.add {
+  width: 9vw;
+  min-width: 70px;
+  min-height: 3.1vh;
+  border: none;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  border-radius: 0 10px 10px 0;
+  transition: all 0.3s ease;
+}
+
+.add:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(250, 250, 250);
+}
+
+.list__wrapper {
+  border-radius: 10px;
+  margin-top: 1vh;
+  max-height: 10vh;
+  width: 49.3vw;
+  background: rgb(250, 250, 250);
+}
+
+.list {
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif;
+}
+
+.list__item {
+  padding: 4px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  margin-right: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #87f2fe;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6aafff;
+}
